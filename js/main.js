@@ -9,7 +9,6 @@ $(document).ready(function(){
 		if(section_pos){
 			$(window).scrollTo({top:section_pos.top, left:'0px'}, 1000);
 		}
-		
 	});
 
 	$('.app_link').click(function(e){
@@ -18,23 +17,11 @@ $(document).ready(function(){
 	});
 
 
-
-
-
-
-
-
 	//Show & Hide menu on mobile
 	$('.burger_icon').click(function(){
 		$('header nav').toggleClass('show');
 		$('header .burger_icon').toggleClass('active');
 	});
-
-	
-
-
-
-
 
 
 	//wow.js on scroll animations initialization
@@ -48,20 +35,8 @@ $(document).ready(function(){
 	wow.init();
 
 
-
-
-
-
-
-
 	//parallax effect initialization
 	$('.hero').parallax("50%", 0.3);
-
-
-
-
-
-
 
 
 	//Nice scroll initialization
@@ -77,12 +52,6 @@ $(document).ready(function(){
 	});
 
 
-
-
-
-
-
-
 	//Testimonials slider initialization
 	$("#tslider").owlCarousel({
 		items : 1,
@@ -95,11 +64,6 @@ $(document).ready(function(){
 		autoPlay : true,
 		transitionStyle : "fade"
 	});
-
-
-
-
-
 
 
 	//Mailchimp subscription form initialization
@@ -136,12 +100,6 @@ $(document).ready(function(){
 	}
 
 
-
-
-
-
-
-
 	//Popup video
 	$('#play_video').click(function(e){
 		e.preventDefault();	
@@ -160,8 +118,4 @@ $(document).ready(function(){
 		});
 
 	});
-
-
-
-
 });
